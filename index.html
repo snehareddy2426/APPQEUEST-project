@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Healthcare Appointment System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Healthcare Appointment System</h1>
+    </header>
+    
+    <div class="container">
+        <form id="appointmentForm">
+            <h2>Book an Appointment</h2>
+
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" name="patientName" required>
+
+            <label for="doctorName">Doctor Name:</label>
+            <input type="text" id="doctorName" name="doctorName" required>
+
+            <label for="appointmentDate">Appointment Date:</label>
+            <input type="date" id="appointmentDate" name="appointmentDate" required>
+
+            <label for="symptoms">Symptoms:</label>
+            <textarea id="symptoms" name="symptoms" placeholder="Describe your symptoms" required></textarea>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+
+        <div id="predictiveAnalysis">
+            <h2>Predictive Analysis</h2>
+            <p>Based on your symptoms and health history, we suggest seeing a specialist. Recommendations will appear here.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Smart Healthcare System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
